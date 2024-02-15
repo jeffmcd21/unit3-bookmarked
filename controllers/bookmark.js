@@ -27,6 +27,14 @@ router.post("/", async (req, res) => {
     }
 });
 
+// DELETE ROUTE
+router.delete("/:id", async (req, res) => {
+    try {
+        res.json(await Bookmark.findByIdAndDelete(req.params.id))
+    } catch (error) {
+        res.status(400).json(error)
+    }
+})
 
 
 module.exports = router;
