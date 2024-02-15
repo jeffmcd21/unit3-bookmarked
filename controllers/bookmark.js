@@ -36,5 +36,22 @@ router.delete("/:id", async (req, res) => {
     }
 })
 
+// GET ROUTE
+router.get("/:id", async (req, res) => {
+    try {
+        res.json(await Bookmark.findById(req.params.id))
+    } catch (error) {
+        res.status(400).json(error)
+    }
+})
+
+// PUT ROUTE
+router.put("/:id", async (req, res) => {
+    try {
+        res.json(await Bookmark.findByIdAndUpdate(req.params.id, req.body))
+    } catch (error) {
+        res.status(400).json(error)
+    }
+})
 
 module.exports = router;
