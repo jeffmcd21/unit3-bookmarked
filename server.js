@@ -2,10 +2,17 @@
 // ~ // --------------- DEPENDENCIES --------------- // ~ //
 require("dotenv").config();
 const express = require("express");
-const mongoose = require("./models/connection")
-
+const mongoose = require("./models/connection");
+const cors = require("cors");
+const morgan = require("morgan");
 
 const app = express();
+
+
+// ~ // --------------- MIDDLEWARE --------------- // ~ //
+app.use(cors())
+app.use(morgan("dev"))
+app.use(express.json())
 
 
 // ~ // --------------- MAIN ROUTE --------------- // ~ //
