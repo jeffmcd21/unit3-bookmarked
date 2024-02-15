@@ -10,7 +10,6 @@ const router = express.Router();
 // INDEX ROUTE
 router.get("/", async (req, res) => {
     try {
-        res.render("Index")
         res.json(await Bookmark.find({}))
 
     } catch (error) {
