@@ -2,9 +2,10 @@
 // ~ // --------------- DEPENDENCIES --------------- // ~ //
 require("dotenv").config();
 const express = require("express");
-const mongoose = require("./models/connection");
+// const mongoose = require("./models/connection");
 const cors = require("cors");
 const morgan = require("morgan");
+const BookmarkRouter = require("./controllers/bookmark");
 
 const app = express();
 
@@ -14,10 +15,12 @@ app.use(cors())
 app.use(morgan("dev"))
 app.use(express.json())
 
+app.use("/bookmark", BookmarkRouter)
+
 
 // ~ // --------------- MAIN ROUTE --------------- // ~ //
 app.get("/", (req, res) => {
-    res.send(`Swimming @ seaPort...${PORT}`);
+    res.send(`Swimming @ seaPORT...${PORT}`);
   });
 
 
