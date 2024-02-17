@@ -1,23 +1,22 @@
-Something 
+Seal_Team1
 
-adad
+Jeff
+Rabhi
+Diana
+Geno
 
+Bookmarked:
 
+Github URL:https://github.com/jeffmcd21/unit3-bookmarked
 
-test again test a third time
-
-rabhi making changes from rabhi branch lol
-
-
-geno hereeeeeee
-
-.
-
-testing
-
-rabhi making changes for the 2nd time
+Deployed Website:
 
 
-This is the way2
+Trello Board:https://github.com/jeffmcd21/unit3-bookmarked
 
-diana dang hudson
+
+List of Dependencies
+
+Express 
+React
+
