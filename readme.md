@@ -1,22 +1,28 @@
 ##Seal_Team1
 
 Jeff
+    
     (Backend)
 
 Rabhi
+    
     (Frontend)
 
 Diana
+    
     (Trello Board)
 
 Geno
+    
     (Read Me)
+
 
 ##Bookmarked:
 
 
 
 Github URL:
+
     https://github.com/jeffmcd21/unit3-bookmarked
 
 
@@ -24,6 +30,7 @@ Deployed Website:
 
 
 Trello Board:
+
     https://trello.com/b/KovVDUMe/bookmarked
 
 
@@ -31,18 +38,24 @@ Trello Board:
 ##List of Dependencies
 
 Node Dependencies(package.json)
+
     Express 
 
 Frontend
+
     React
 
 
 ##Route Map
+   
+   
     Below a table listing the different routes in the app and their purposes.
 
 
 
 Route Name	Endpoint	Method	Description
+
+
 
 | Index | / | GET | Renders page|
 
