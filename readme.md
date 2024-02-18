@@ -1,8 +1,11 @@
 Seal_Team1
 
 Jeff(Backend)
+
 Rabhi(Frontend)
+
 Diana(Trello Board)
+
 Geno(Read Me)
 
 Bookmarked:
