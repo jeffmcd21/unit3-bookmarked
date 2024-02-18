@@ -1,71 +1,74 @@
-##Seal_Team1
+# Seal Team1
 
-Jeff
+### Jeff
     
     (Backend)
 
-Rabhi
+### Rabhi
     
     (Frontend)
 
-Diana
+### Diana
     
     (Trello Board)
 
-Geno
+### Geno
     
     (Read Me)
 
 
-##Bookmarked:
+## Bookmarked:
 
 
 
-Github URL:
+- Github URL:
+    
+    -[Frontend](https://github.com/rabhioli/Bookmark-group)
 
-    https://github.com/jeffmcd21/unit3-bookmarked
+    -[Backend](https://github.com/jeffmcd21/unit3-bookmarked)
+   
+
+---
+- Deployed Website:
+
+---
+- Trello Board:
+
+   -[Trello](https://trello.com/b/KovVDUMe/bookmarked)
+
+---
+
+# List of Dependencies
+
+## Node Dependencies
+- Express  
+- Cors
+- dotenv
+- Mongoose
+- Morgan
+
+## Frontend
+- React
 
 
-Deployed Website:
-
-
-Trello Board:
-
-    https://trello.com/b/KovVDUMe/bookmarked
-
-
-
-##List of Dependencies
-
-Node Dependencies(package.json)
-
-    Express 
-
-Frontend
-
-    React
-
-
-##Route Map
+## Route Map
    
    
     Below a table listing the different routes in the app and their purposes.
 
 
 
-Route Name	Endpoint	Method	Description
+
+| Route Name | Endpoint | Method | Description |
+|------------|----------|--------|-------------|
 
 
 
-| Index | / | GET | Renders page|
-
-| Show | / | GET | brings you to page |
-
-| New | / | GET | brings you to page |
-
-| Edit |  | GET | brings you to page |
-
-| Delete | /| GET | brings you to page |
-
-| Update | / | GET | brings you to page |
+| Index | / | GET | Renders Main page|
+|-------|---|-----|-------------|
+| Show | / | GET | brings you to Show page |
+| New | / | GET | brings you to New page |
+| Edit |  | GET | brings you to Edit page |
+| Delete | /| GET | allows you to Delete |
+| Update | / | GET | allows you to Update |
 
