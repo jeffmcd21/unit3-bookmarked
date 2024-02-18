@@ -1,34 +1,44 @@
 Seal_Team1
 
-Jeff(Backend)
+##Jeff
+    (Backend)
 
-Rabhi(Frontend)
+##Rabhi
+    (Frontend)
 
-Diana(Trello Board)
+##Diana
+    (Trello Board)
 
-Geno(Read Me)
+##Geno
+    (Read Me)
 
-Bookmarked:
+##Bookmarked:
 
-Github URL:https://github.com/jeffmcd21/unit3-bookmarked
-
-Deployed Website:
-
-
-Trello Board:https://github.com/jeffmcd21/unit3-bookmarked
-
-
-List of Dependencies
-
-Node Dependencies(package.json)
-Express 
-
-Frontend
-React
+##Github URL:
+    https://github.com/jeffmcd21/unit3-bookmarked
 
 
-Route Map
-Below a table listing the different routes in the app and their purposes.
+##Deployed Website:
+
+
+##Trello Board:
+    https://trello.com/b/KovVDUMe/bookmarked
+
+
+
+##List of Dependencies
+
+##Node Dependencies(package.json)
+    Express 
+
+##Frontend
+    React
+
+
+##Route Map
+    Below a table listing the different routes in the app and their purposes.
+
+
 
 Route Name	Endpoint	Method	Description
 
