@@ -1,37 +1,39 @@
-Seal_Team1
+##Seal_Team1
 
-##Jeff
+Jeff
     (Backend)
 
-##Rabhi
+Rabhi
     (Frontend)
 
-##Diana
+Diana
     (Trello Board)
 
-##Geno
+Geno
     (Read Me)
 
 ##Bookmarked:
 
-##Github URL:
+
+
+Github URL:
     https://github.com/jeffmcd21/unit3-bookmarked
 
 
-##Deployed Website:
+Deployed Website:
 
 
-##Trello Board:
+Trello Board:
     https://trello.com/b/KovVDUMe/bookmarked
 
 
 
 ##List of Dependencies
 
-##Node Dependencies(package.json)
+Node Dependencies(package.json)
     Express 
 
-##Frontend
+Frontend
     React
 
 
